@@ -1,0 +1,169 @@
+body {
+  font-family: "montserrat", sans-serif;
+  background-color: #fafafa;
+  color: #111;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+}
+image {
+  display: block;
+}
+
+.header-logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11;
+  letter-spacing: -0.03em;
+  color: #111;
+  display: flex;
+  align-items: center;
+}
+
+.header-logo-italic {
+  font-style: italic;
+  line-height: 1.11;
+  letter-spacing: -0.03em;
+  color: #111;
+}
+
+.header-menu-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  color: #111;
+  display: flex;
+  margin: 0 90px 0 auto;
+  gap: 24px;
+  cursor: pointer;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  padding: 28px 32px;
+}
+
+.header-sicial-list,
+.headrer-social-item {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+/* ------main---------- */
+
+.hero-section {
+  background: #1e1823;
+  border-radius: 30px;
+  padding: 375px 72px 46px 72px;
+}
+
+.hero-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21429;
+  letter-spacing: -0.03em;
+  color: #fff;
+  max-width: 484px;
+  margin-bottom: 32px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hero-button-orange {
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 100px;
+  padding: 14px 40px;
+  width: 144px;
+  height: 45px;
+  background: #fd9222;
+  border: none;
+  cursor: pointer;
+  margin-right: 14px;
+}
+
+.hero-button-link {
+  border: 1px solid #fff;
+  border-radius: 100px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+  padding: 14px 40px;
+}
+
+.hero-scroll-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.03em;
+  color: #fff;
+  margin-left: auto;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+}
+
+.hero-main {
+  display: flex;
+  flex-direction: column;
+}
+
+/* -----features-section----- */
+
+.features-section {
+  background: #1e1823;
+  margin: 72px 0 100px 0;
+  padding: 50px;
+}
+
+.features-container {
+  display: flex;
+}
+
+.features-list {
+  display: flex;
+  gap: 70px;
+  margin: 0 auto;
+}
+
+.features-title {
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 18px;
+}
+.features-desc {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.features-item {
+  max-width: 308px;
+  width: calc((100% - 140px) / 3);
+}
