@@ -28,6 +28,12 @@ image {
   display: block;
 }
 
+.container {
+  width: 1136px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
 .header-logo {
   font-weight: 700;
   font-size: 18px;
@@ -60,7 +66,8 @@ image {
 .header-nav {
   display: flex;
   align-items: center;
-  padding: 28px 32px;
+  padding: 28px 0;
+  width: 1136px;
 }
 
 .header-sicial-list,
@@ -75,7 +82,7 @@ image {
 .hero-section {
   background: #1e1823;
   border-radius: 30px;
-  padding: 375px 72px 46px 72px;
+  padding: 381px 72px 40px 72px;
 }
 
 .hero-title {
@@ -128,20 +135,30 @@ image {
 }
 
 .hero-main {
+  width: 1056px;
   display: flex;
   flex-direction: column;
 }
 
 /* -----features-section----- */
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+}
+
 .features-section {
   background: #1e1823;
-  margin: 72px 0 100px 0;
-  padding: 50px;
+  margin-top: 72px;
+  padding: 50px 0;
 }
 
 .features-container {
-  display: flex;
+  width: 1100px;
 }
 
 .features-list {
@@ -166,4 +183,70 @@ image {
 .features-item {
   max-width: 308px;
   width: calc((100% - 140px) / 3);
+}
+
+/* ------------ingredients-------- */
+
+.ingredients- section {
+}
+
+.ingredients-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111;
+  width: 411px;
+  margin: 100px auto 28px;
+}
+
+.ingredients-title-orange {
+  color: #fd9222;
+}
+.ingredients-paragraph {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #111;
+  width: 486px;
+  margin: 0 auto 50px;
+}
+
+.ingredients-list {
+  display: flex;
+  gap: 19px;
+}
+
+.ingredients-item {
+  border: 1px solid #fd9222;
+  border-radius: 15px;
+  padding: 28px 32px;
+}
+
+.ingredients-item-choco {
+  border: none;
+  background: #fd9222;
+}
+
+.ingredients-item-nuts {
+  border: none;
+  background: #1e1823;
+}
+
+.name-ingredients {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #111;
+  margin-top: 36px;
+}
+
+.name-ingr-color-white {
+  color: #fff;
 }
