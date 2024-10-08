@@ -144,11 +144,15 @@ image {
 
 .visually-hidden {
   position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .features-section {
@@ -250,3 +254,57 @@ image {
 .name-ingr-color-white {
   color: #fff;
 }
+
+.made-section{
+  margin-top: 100px;
+}
+
+.made-title {
+  font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #111;
+    margin-bottom: 50px;
+}
+
+.made-title-orange{
+  color: #fd9222;
+}
+
+.made-title-list {
+  font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33;
+    color: #111;
+    margin-bottom: 28px;
+}
+
+.made-list {
+  
+}
+
+.made-item {
+  font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    color: #111;
+    margin-bottom: 24px;
+    list-style-type: disc;
+
+}
+
+.made-container{
+  display: flex;
+ }
+
+ .made-container-list{
+  margin-left: 20px;
+  padding: 32px;
+ }
