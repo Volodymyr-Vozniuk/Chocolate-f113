@@ -24,15 +24,21 @@ li {
 a {
   text-decoration: none;
 }
+
 image {
   display: block;
 }
 
 .container {
-  width: 1136px;
+  max-width: 1166px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
 }
 
 .header-logo {
@@ -89,11 +95,6 @@ image {
   color: #fd9222;
 }
 
-.header-nav {
-  display: flex;
-  align-items: center;
-}
-
 .header-social-list {
   display: flex;
   align-items: center;
@@ -133,7 +134,7 @@ image {
 }
 
 .container-hero {
-  width: 1056px;
+  width: 1086px;
 }
 
 .hero-content {
@@ -255,7 +256,7 @@ image {
 }
 
 .features-container {
-  width: 1100px;
+  width: 1130px;
 }
 
 .features-list {
@@ -356,6 +357,7 @@ image {
   border: 1px solid #fd9222;
   border-radius: 15px;
   padding: 28px 32px;
+  width: calc((100% - 3 * 19px) / 4);
 }
 
 .ingredients-item-choco {
@@ -592,9 +594,3 @@ image {
   margin-top: 24px;
   gap: 24px;
 }
-
-/* .footer-nav-list {
-  display: flex;
-  margin-top: 24px;
-  gap: 24px;
-} */
