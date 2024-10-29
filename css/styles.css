@@ -291,9 +291,6 @@ image {
   position: absolute;
 }
 
-.features-item:last-child {
-}
-
 .features-icon {
   border-radius: 50%;
   width: 62px;
