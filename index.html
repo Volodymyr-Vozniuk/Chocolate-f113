@@ -19,7 +19,7 @@
 
   <body>
     <header>
-      <div class="container">
+      <div class="container header-container">
         <nav class="header-nav">
           <a class="header-logo" href="./index.html"
             ><span class="header-logo-italic">SIMPLY </span> CHOCOLATE
@@ -44,7 +44,6 @@
             <li>
               <a class="header-social-link" href="">
                 <svg class="header-social-svg" width="24" height="24">
-                  <rect></rect>
                   <use href="./images/icon.svg#icon-instagram"></use>
                 </svg>
               </a>
@@ -59,10 +58,52 @@
             </li>
           </ul>
         </nav>
+        <button class="mobile-open-btn" data-mobile-open>
+          <svg class="mobile-burger-icon" width="28" height="28">
+            <use href="./images/icon.svg#icon-menu-mobil-burger"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="mobile-menu is-hidden" data-mobile>
+        <button class="mobile-close-btn" data-mobile-close>
+          <svg class="mobile-close-icon" width="28" height="28">
+            <use href="./images/icon.svg#icon-mobile-close-icon"></use>
+          </svg>
+        </button>
+        <ul>
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link mobile-menu-link-home">Home</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link">How it’s made?</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link">Chocolate is loved</a>
+          </li>
+        </ul>
+
+        <ul class="mobile-social-list">
+          <li>
+            <a class="mobile-social-link" href="">
+              <svg class="mobile-social-svg" width="22" height="22">
+                <use href="./images/icon.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+
+          <li>
+            <a class="mobile-social-link" href="">
+              <svg class="mobile-social-svg" width="24" height="24">
+                <use href="./images/icon.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </header>
 
-    <main>
+    <!-- <main>
       <section class="hero-section">
         <div class="container container-hero">
           <h1 class="hero-title">
@@ -305,9 +346,9 @@
           <button class="reviews-but" type="submit">Leave a review</button>
         </div>
       </section>
-    </main>
+    </main> -->
 
-    <footer class="footer-section">
+    <!-- <footer class="footer-section">
       <div class="container">
         <div class="footer-title-contact">
           <p class="footer-title">
@@ -344,6 +385,7 @@
           </ul>
         </nav>
       </div>
-    </footer>
+    </footer> -->
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>

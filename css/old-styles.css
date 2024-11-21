@@ -1,0 +1,477 @@
+/* ------main---------- */
+
+.hero-section {
+  background-color: #1e1823;
+  background-image: url(/images/chocolate-covered-cocoa-powder\ 1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 1200px;
+  margin: 0 auto;
+  background-size: 100%;
+  border-radius: 30px;
+  padding-top: 381px;
+  padding-bottom: 40px;
+  margin-bottom: 72px;
+}
+
+.container-hero {
+  width: 1086px;
+}
+
+.hero-content {
+  display: flex;
+}
+
+.hero-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21429;
+  letter-spacing: -0.03em;
+  color: #fff;
+  width: 484px;
+  margin-bottom: 32px;
+}
+
+.hero-button-orange {
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 100px;
+  padding: 14px 40px;
+  width: 144px;
+  height: 45px;
+  background: #fd9222;
+  border: none;
+  cursor: pointer;
+  margin-right: 14px;
+  transition: color 250ms ease, background-color 250ms ease;
+}
+
+.hero-button-orange:hover,
+.hero-button-orange:focus {
+  background-color: #fcf1e0;
+  color: #fd9222;
+}
+
+.hero-button-link {
+  border: 1px solid #fff;
+  border-radius: 100px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+  padding: 14px 40px;
+  transition: color 250ms ease, background-color 250ms ease;
+}
+
+.hero-button-link:hover,
+.hero-button-link:focus {
+  border: 1px solid #fd9222;
+  background: #fff;
+  color: #fd9222;
+}
+
+.hero-scroll-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.03em;
+  color: #fff;
+  margin-left: auto;
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  justify-content: center;
+  transition: color 250ms ease;
+}
+
+.hero-wraper-vector {
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 50%;
+  transition: background-color 250ms ease;
+}
+
+.hero-vector-svg {
+  fill: #fd9222;
+  transition: fill 250ms ease;
+}
+
+.hero-scroll-link:hover,
+.hero-scroll-link:focus {
+  color: #fd9222;
+}
+
+.hero-scroll-link:hover .hero-vector-svg,
+.hero-scroll-link:focus .hero-vector-svg {
+  fill: #fff;
+}
+
+.hero-scroll-link:hover .hero-wraper-vector,
+.hero-scroll-link:focus .hero-wraper-vector {
+  background-color: #fd9222;
+}
+
+/* -----features-section----- */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.features-section {
+  background: #1e1823;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.features-container {
+  width: 1130px;
+}
+
+.features-list {
+  display: flex;
+  gap: 88px;
+}
+
+.features-title {
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 18px;
+}
+.features-desc {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.features-item {
+  width: calc((100% - 2 * 88px) / 3);
+  position: relative;
+}
+
+.features-item::before {
+  content: "";
+  top: 60px;
+  right: -16px;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 1px;
+  height: 124px;
+  position: absolute;
+}
+
+.features-icon {
+  border-radius: 50%;
+  width: 62px;
+  height: 62px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 22px;
+}
+
+.features-icon:hover .features-icon-svg {
+  transform: rotate(360deg);
+}
+
+.features-icon-svg {
+  fill: #fd9222;
+  transition: transform 900ms ease;
+}
+
+/* ------------ingredients-------- */
+
+.ingredients-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.ingredients-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111;
+  width: 411px;
+  margin: 0 auto;
+  margin-bottom: 28px;
+}
+
+.ingredients-title-orange {
+  color: #fd9222;
+}
+
+.ingredients-paragraph {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #111;
+  width: 486px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.ingredients-list {
+  display: flex;
+  gap: 19px;
+}
+
+.ingredients-item {
+  border: 1px solid #fd9222;
+  border-radius: 15px;
+  padding: 28px 32px;
+  width: calc((100% - 3 * 19px) / 4);
+}
+
+.ingredients-item-choco {
+  border: none;
+  background: #fd9222;
+}
+
+.ingredients-item-nuts {
+  border: none;
+  background: #1e1823;
+}
+
+.name-ingredients {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #111;
+  margin-top: 36px;
+}
+
+.name-ingr-color-white {
+  color: #fff;
+}
+
+/* --------made-section------- */
+
+.made-container {
+  display: flex;
+}
+
+.made-container-list {
+  margin-left: 20px;
+  padding: 32px;
+  border-radius: 15px;
+  background: #fff;
+  width: calc((100% - 20px) / 2);
+}
+
+.made-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111;
+  margin-bottom: 50px;
+}
+
+.made-title-orange {
+  color: #fd9222;
+}
+
+.made-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #111;
+  margin-bottom: 28px;
+  max-width: 350px;
+}
+
+.made-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.made-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  color: #111;
+  list-style: disc;
+  margin-left: 16px;
+  max-width: 425px;
+}
+
+/* ------reviews-section------- */
+
+.reviews-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.reviews-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111;
+  margin-bottom: 50px;
+}
+
+.reviews-title-orange {
+  color: #fd9222;
+}
+
+.reviews-list {
+  display: flex;
+  gap: 28px;
+}
+
+.reviews-item {
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 15px;
+  box-shadow: 0 9px 100px 0 rgba(17, 17, 17, 0.03);
+  background: #fff;
+  padding: 56px 24px 24px 24px;
+}
+
+.reviews-item-img {
+  width: calc((100% - 2 * 28px) / 3);
+  position: relative;
+}
+
+.reviews-human-ellipse {
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.name-reviews {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33333;
+  text-align: center;
+  color: #111;
+  margin-bottom: 24px;
+}
+
+.reviews-desc {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(17, 17, 17, 0.7);
+  min-height: 72px;
+}
+
+.reviews-but {
+  font-weight: 600;
+  font-size: 18px;
+  color: #111;
+  margin: 0 auto;
+  border: 1px solid #fd9222;
+  border-radius: 100px;
+  padding: 14px 40px;
+  width: 222px;
+  height: 50px;
+  cursor: pointer;
+  display: flex;
+  margin-top: 50px;
+}
+
+/* -------footer------ */
+
+.footer-section {
+  background: #1e1823;
+  padding-top: 50px;
+  padding-bottom: 86px;
+}
+
+.footer-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.02em;
+  color: #fff;
+  max-width: 300px;
+}
+
+.footer-subtitle-orange {
+  color: #fd9222;
+}
+
+.footer-contact-section {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+}
+
+.footer-contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  color: #fff;
+  margin-bottom: 14px;
+}
+
+.footer-contact-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fff;
+}
+
+.footer-title-contact {
+  display: flex;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  width: 1136px;
+  padding-bottom: 50px;
+}
+
+.footer-contact-section {
+  display: flex;
+}
+
+.footer-contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.footer-nav-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14286;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+
+.footer-nav-list {
+  display: flex;
+  margin-top: 24px;
+  gap: 24px;
+}
